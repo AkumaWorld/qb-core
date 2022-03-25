@@ -8,7 +8,7 @@ QBShared.Jobs = {
 		grades = {
             ['0'] = {
                 name = 'Freelancer',
-                payment = 10
+                payment = 30
             },
         },
 	},
@@ -275,6 +275,44 @@ QBShared.Jobs = {
 		grades = {
             ['0'] = {
                 name = 'Sales',
+                payment = 50
+            },
+        },
+	},
+	["burgershot"] = {
+		label = "Burgershot Employee",
+		defaultDuty = true,
+		grades = {
+            ['0'] = {
+                name = "Trainee",
+                payment = 50
+            },
+			['1'] = {
+                name = "Employee",
+                payment = 75
+            },
+			['2'] = {
+                name = "Burger Flipper",
+                payment = 100
+            },
+			['3'] = {
+                name = "Manager",
+                payment = 125
+            },
+			['4'] = {
+                name = "CEO",
+				isboss = true,
+                payment = 150
+            },
+        },
+	},
+    ['lumberjack'] = {
+		label = 'LumberJack',
+		defaultDuty = true,
+		offDutyPay = false,
+		grades = {
+            ['0'] = {
+                name = 'Logger',
                 payment = 50
             },
         },
